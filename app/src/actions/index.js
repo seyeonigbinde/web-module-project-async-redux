@@ -25,8 +25,8 @@ export const fetchStart = ()=> {
     return({type: FETCH_START});
 }
 
-export const fetchSuccess = (person)=> {
-    return({type: FETCH_SUCCESS, payload:person});
+export const fetchSuccess = (cat)=> {
+    return({type: FETCH_SUCCESS, payload:cat});
 }
 
 export const fetchFail = (error)=> {
