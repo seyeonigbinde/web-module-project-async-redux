@@ -27,9 +27,9 @@ const App = (props) => {
         <h1>My Cat Finder</h1>
         </div>
         <div className="app_content">
-        <img src={cat.webpurl} width="400"/>
-      <button onClick={(e)=>{ handleClick() }}>Checkout New Cats</button>
+        <img src={cat.webpurl} width="800"/>
       </div>
+      <button onClick={(e)=>{ handleClick() }}>Checkout New Cats</button>
 
     </>
   );
