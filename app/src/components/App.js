@@ -24,7 +24,7 @@ const App = (props) => {
   return (
     <>
       <div className="container">
-        <h1>My Cat App</h1>
+        <h1>My Cat Finder</h1>
         </div>
         <div className="app_content">
         <img src={cat.webpurl} width="400"/>
